@@ -1,0 +1,51 @@
+-
+  url: /login-or-register/do?_=1718216550908
+  method: POST
+- # test_01用例
+  detail: 账号密码都正确
+  data:
+    username: "1043703"
+    password: "123321"
+  resp:
+    code: 1125
+    message: "验证码不正确"
+- # test_02用例
+  detail: 账号密码不正确
+  data:
+    username: "1043704"
+    password: "123324"
+  resp:
+    code: 1125
+    message: "验证码不正确"
+- # test_03用例
+  detail: 账号密码不正确
+  data:
+    username: "1043704"
+    password: "123324"
+  resp:
+    code: 1125
+    message: "验证码不正确"
+- # test_04用例
+  detail: 账号密码不正确
+  data:
+    username: "1043704"
+    password: "123324"
+  resp:
+    code: 1125
+    message: "验证码不正确"
+- # test_05用例
+  detail: 账号密码不正确
+  data:
+    username: "1043704"
+    password: "123324"
+  resp:
+    code: 1125
+    message: "验证码不正确"
+- # test_06用例
+  detail: 账号密码不正确
+  data:
+    username: "1043704"
+    password: "123324"
+  resp:
+    code: 1125
+    message: "验证码不正确"
